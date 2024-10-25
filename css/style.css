@@ -1,0 +1,552 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+a,ul,ol,header,h1,h2,h3,h4,h5,h6,span,div,footer,p,li{
+    padding: 0;
+    margin: 0;
+    outline: 0; 
+}
+
+/* font-family: 'Nexa', sans-serif; 
+  font-family: "Quicksand", sans-serif;                                               
+ */
+
+ /* navation part html start */
+ 
+
+    
+
+ .navbar-nav .nav-item {
+    padding: 0 12px;
+ }
+ .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all linear .3s;
+
+ }
+
+ .navbar-nav .nav-item .nav-link:hover{
+    color: #FE8C45;
+    transition: all linear .3s;
+ }
+ .from-main .btn{
+    padding: 10px 25px;
+    background-color:#FE8C45;
+    border-radius: 100px;
+    color: white;
+    font-family: "Quicksand", sans-serif;  
+    font-size: 18px;
+    font-weight: 400;
+    transition: all linear .3s;
+
+ }
+
+
+ .from-main .btn:hover{
+    background-color:#8A47F6;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    transition: all linear .3s;
+
+ }
+
+ /* navation part html end */
+
+ /* banner part css start */
+
+ 
+    
+ 
+.banner-content h4{
+    font-size: 74px;
+    font-family: 'Nexa', sans-serif; 
+    font-weight: 900;
+    line-height: 94px;
+    margin-top: 160px;
+    
+}
+
+.banner-content img{
+    
+    float: right;
+    padding: 25px 0;
+    /* padding: 25px 0 25px 90px; */
+}
+
+.banner-content p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.banner-img-2 img{
+    height: 580px;
+    width: 100%;
+}
+ /* banner part css end */
+
+
+ .from-main-2 .btn{
+    padding: 10px 50px;
+    background-color:#FE8C45;
+    border-radius: 90px;
+    color: white;
+    font-family: "Quicksand", sans-serif;  
+    font-size: 20px;
+    font-weight: 400;
+    transition: all linear .3s;
+ }
+
+ .from-main-2 .btn:hover{
+    background-color:#8A47F6;
+    color: white;
+   
+    transition: all linear .3s;
+ }
+
+ .carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+   
+}
+
+.carousel-indicators [data-bs-target].active{
+    background-color: #FE8C45;
+}
+
+/* about part css start */
+
+.about{
+    padding: 65px 100px 20px 77px;
+    background-color: #F3EDFE;
+    margin-top: 72px;
+  
+}
+
+.about-img img{
+    padding-top: 30px;
+}
+
+.about-content h6{
+    font-family: "Quicksand", sans-serif;  
+    font-size: 18px;
+    font-weight: 500;
+   padding-bottom: 5px;
+} 
+.about-content h4{
+    font-size: 48px;
+    font-family: 'Nexa', sans-serif; 
+    font-weight: 900;
+    line-height: 54px;
+}
+
+
+.about-content p:first-child{
+   padding: 7px 0 20px 0;
+}
+
+.about-content p{
+    font-family: "Quicksand", sans-serif;  
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.from-main-3 .btn{
+    margin-top: 13px;
+    padding: 9px 27px;
+    background-color:#FE8C45;
+    border-radius: 92px;
+    color: white;
+    font-family: "Quicksand", sans-serif;  
+    font-size: 18px;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+.from-main-3 .btn:hover{
+    background-color: #8A47F6;
+    transition: all linear .3s;
+    color: white;
+}
+/* about part css end */
+
+/* portfolio part css start */
+.footer-common{
+    text-align: center;
+}
+
+.footer-common h4{
+    font-size: 48px;
+    font-family: 'Nexa', sans-serif; 
+    font-weight: 900;
+    margin-top: 128px;
+
+}
+
+.fortfolio-link {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 1%;
+    box-shadow: 1px 1px 6px black;
+} 
+
+
+
+.fortfolio-link ul li{
+    float: left;
+   margin-top: 15px;
+   padding-right: 128px;
+    
+   
+}
+
+.fortfolio-link ul li a{
+    font-family: "Quicksand", sans-serif;  
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+/* portfolio part css end*/
+
+
+/* price part css start */
+ 
+/* .card{
+    margin-left: 34px
+} */
+
+
+
+.card :hover{
+ background-color: black;
+ color: white;
+ transition: all linear .08s;
+ 
+}
+ 
+
+
+.card .card-body .card-title{
+    font-size: 22px;
+    font-family: 'Nexa', sans-serif; 
+    font-weight: 900;
+    margin-top: 10px;
+   
+   
+}
+
+
+.card .card-body .card-text{
+    font-family: "Quicksand", sans-serif;  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 3px;
+   
+
+}
+
+.card .card-body .card-price{
+    font-size: 48px;
+    font-family: 'Nexa', sans-serif; 
+    font-weight: 900;
+    
+}
+
+
+.btn-primary{
+    background-color: #FE8C45 !important;
+    border: 0 !important;
+    transition: all linear .3s !important;
+    
+}
+
+.card:hover .btn-primary{
+    background-color: white !important;
+    color: black !important;
+    transition: all linear .3s !important;
+}
+/* price part css end */
+
+/* testimonial part css start */
+.testimonial{
+    background-color: #F3EDFE;
+    padding: 55px 75px;
+    margin-top: 123px;
+}
+
+.testimonial-content h6{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.testimonial-content h4{
+    font-size: 48px;
+    font-family: 'Nexa', sans-serif; 
+    font-weight: 900;
+}
+
+
+.testimonial-content P {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.testimonial-img-slide {
+    position: relative;
+
+}
+
+.testimonial-img-slide img{
+    padding: 3px 200px 3px 2px;
+    background-color: #e4daf7;
+    border-radius: 50px;
+    float: left;
+    
+
+}
+.testimonial-img-slide h5 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    position: absolute;
+    top: 13px;
+    left: 61px;
+}
+
+.icon-img ul{
+    float: left;
+}
+
+.icon-img ul li{
+    float: right;
+}
+
+.icon-img ul li a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 9px 8px;
+}
+
+
+
+/* testimonial part css end */
+
+/* instagram part html start */
+
+.instagram{
+    margin-top: 137px;
+}
+.instagram-common-content h4{
+    font-size: 48px;
+    font-family: 'Nexa', sans-serif; 
+    font-weight: 900;
+
+}
+
+.instagram-common-icon a{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    float: right;
+    color: black;
+    padding: 6px 35px;
+    background-color:#FE8C45;
+    border-radius: 92px;
+    color: white;
+    margin-top: 8px;
+}
+
+.img-main{
+    margin: 10px 0;
+}
+
+.img-main img{
+    margin: 10px 0;
+}
+
+
+ /* instagram html end  */
+
+
+ /* question part html start  */
+.question{
+    margin-top: 130px;
+}
+
+.question-content-main h4{
+    font-size: 48px;
+    font-family: 'Nexa', sans-serif; 
+    font-weight: 900;
+
+}
+
+.question-content-main p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.address-content{
+    padding: 40px 24px;
+    background-color: #EDE3FE;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.address-content h4{
+    font-family: "Quicksand", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.address-content h6{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+   
+   
+   
+}
+
+
+
+
+.address-icon a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    background-color:#8A47F6;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 11px;
+    
+   
+   
+
+}
+
+.content-add p{
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+ 
+   
+}
+ /* question part html end  */
+
+/* footer part css start  */
+footer{
+    padding: 30px 0;
+   margin-top: 115px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    float: right;
+}
+
+.footer-content p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 8px;
+    text-decoration: underline;
+    
+
+}
+
+
+.footer-icon{
+    float: right;
+}
+.footer-icon a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    background-color:#FFFFFF;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+   float: right;
+   margin: 0 4px;
+}
+/* footer part css end */
+
+
+.slide-img-1 {
+    position: absolute;
+    top: 2px;
+    left: -125px;
+    z-index: -1;
+}
+
+.slide-img-2 {
+    position: absolute;
+    top: 92px;
+    left: -3px;
+    z-index: -1;
+}
+
+
+.slide-img-3 {
+    position: absolute;
+    top: 1112px;
+    left: 800px;
+    z-index: -1;
+}
+
+.slide-img-4 {
+    position: absolute;
+    top: 2254px;
+    left: -104px;
+    z-index: -1;
+}
